@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/store_container.tscn" type="PackedScene" id=1]
+
+[node name="PPlant" instance=ExtResource( 1 )]
+item_value = 950
+vaccine_buff = 19.0
+multiplier_cost_factor = 0.95
+multiplier_buff_factor = 0.095
+item_name = "P. Plant"
+item_image_path = "res://assets/items_icon/power_plant.png"

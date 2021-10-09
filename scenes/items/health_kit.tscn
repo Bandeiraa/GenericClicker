@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/store_container.tscn" type="PackedScene" id=1]
+
+[node name="HKit" instance=ExtResource( 1 )]
+item_value = 75
+vaccine_buff = 1.5
+multiplier_cost_factor = 0.15
+multiplier_buff_factor = 0.03
+item_name = "H. Box"
+item_image_path = "res://assets/items_icon/health_kit.png"
